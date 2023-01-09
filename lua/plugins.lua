@@ -2,8 +2,7 @@ require ('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     use 'lewis6991/impatient.nvim'
     use { 'fgheng/winbar.nvim' }
-
-
+    use 'elkowar/yuck.vim'
 
     -- CMP --
     use 'hrsh7th/nvim-cmp'
@@ -15,7 +14,7 @@ require ('packer').startup(function(use)
     use 'hrsh7th/cmp-nvim-lua'
     use({ "williamboman/mason.nvim" }) -- Mason to install lsp servers
 	use({ "williamboman/mason-lspconfig.nvim" })
-
+    
     -- FUZZY FINDER
 
     use {
